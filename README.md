@@ -1,6 +1,5 @@
-# Getting Started with Create React App
+# Hi, Tadas.
 
-Hi, Tadas.
 I prepared a schedule counter for you.
 
 On a top of this app you see 3 fields, where you can type your projects' name, deadline and hours needed to do that project (you can change it any time you want and calculate your schedule again if needed )
