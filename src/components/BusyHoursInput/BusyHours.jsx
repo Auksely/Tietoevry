@@ -56,6 +56,8 @@ const BusyHours = () => {
     localStorage.setItem("Busy", JSON.stringify(busy));
   }
 
+  busy.sort((a, b) => new Date(a.date) - new Date(b.date));
+
 
   return (
     <>
