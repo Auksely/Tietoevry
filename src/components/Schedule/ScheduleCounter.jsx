@@ -95,8 +95,7 @@ const Schedule = () => {
     while (hoursNeeded > 0) {
       sortCalendar = results.sort((a, b) => b.freeTime - a.freeTime);
       const maxFreeTimeObj = sortCalendar[0];
-
-      if (maxFreeTimeObj.freeTime > 0) {
+      if (maxFreeTimeObj.freeTime >= 4) {
         maxFreeTimeObj.freeTime--
         maxFreeTimeObj.studyTime++
       }
