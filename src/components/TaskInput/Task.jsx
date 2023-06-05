@@ -84,7 +84,6 @@ const Task = () => {
       />
       </div>
     </form>
-    <hr className="task-form__mark"/>
     </>
   )
 }

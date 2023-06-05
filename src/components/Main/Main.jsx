@@ -6,7 +6,9 @@ import "./main.scss"
 const Main = () => (
   <div className="main">
     <Task />
+    <hr className="main__mark"/>
     <BusyHours />
+    <hr className="main__mark"/>
     <Schedule />
   </div>
 )

@@ -1,8 +1,20 @@
 @import "../../saas/variables.scss";
+@import "../../saas/media.scss";
 
 
 .main {
     display: flex;
     flex-direction: column;
     margin: $margin-m $margin-l;
+
+        &__mark {
+            border: none;
+            border-top: 5px dotted $color-grey;
+            width: 70%;
+            margin: $margin-m auto;
+
+            @include media-query-mobile {
+                margin: $margin-s auto;
+            }
+        }
 }

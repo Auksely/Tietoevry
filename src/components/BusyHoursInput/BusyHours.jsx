@@ -93,7 +93,6 @@ const BusyHours = () => {
         <div className="busy-hours-form__table">
           <Table firstColl="Busy date" secColl="Hours of being busy" busy={busy} />
         </div>
-
       </form>
     </>
 

@@ -5,13 +5,11 @@
 .busy-hours-form {
     display: flex;
     flex-direction: row;
-    margin: $margin-m 0;
     align-items: center;
 
     @include media-query-mobile {
         flex-direction: column;
         align-items: center;
-        margin: $margin-s;
     }
 
     &__input-data,
