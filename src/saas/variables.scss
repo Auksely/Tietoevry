@@ -11,18 +11,19 @@ $color-text: #2600bb;
 
 //padding
 
-$padding-inputs: 0.7rem;
+$padding-xs:0.5rem;
+$padding-s: 0.7rem;
 $padding-form: 1rem;
-$padding-left: 2rem;
+$padding-l: 2rem;
 $padding-right: 1rem;
 
 
 //margin
-
-$margin-m:2rem;
+$margin-s: 1rem;
+$margin-m: 2rem;
 $margin-xs: 0.5rem;
 $margin-l: 4rem;
-$margin-xl:5rem;
+$margin-xl: 5rem;
 
 
 
@@ -39,7 +40,7 @@ $font-family: "Montserrat", sans-serif;
 $line-height: 1.4;
 
 $font-size-m: 16px;
-$font-size-s:14px;
+$font-size-s: 14px;
 
 $font-weight: 400;
-$font-weight-strong:600;
+$font-weight-strong: 600;

@@ -1,5 +1,5 @@
 @import "../../saas/variables.scss";
-
+@import "../../saas/media.scss";
 
 
 .task-form {
@@ -7,15 +7,23 @@
     flex-direction: row;
     justify-content: space-between;
 
+    @include media-query-mobile {
+        flex-direction: column;
+    }
+
     &__input {
         display: flex;
         flex-direction: column;
-        margin: 2rem;
+        margin: $margin-m;
+
+        @include media-query-mobile {
+            margin: 0 0 $margin-s;
+        }
     }
 
     &__mark {
         border: none;
-        border-top: 5px dotted #d8d7d7;
+        border-top: 5px dotted $color-grey;
         width: 30%;
     }
 }

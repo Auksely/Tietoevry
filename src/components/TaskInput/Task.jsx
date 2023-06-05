@@ -73,7 +73,7 @@ const Task = () => {
       <div className="task-form__input">
       <Inputs
         colored
-        label="Hours needed for a task"
+        label="Hours needed"
         type='number'
         name="hoursNeeded"
         min='0'

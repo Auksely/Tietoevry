@@ -1,9 +1,16 @@
 @import "../../saas/variables.scss";
+@import "../../saas/media.scss";
+
 
 .table-container {
     border: 1px solid $color-main;
     border-radius: $radius-xs;
     overflow: hidden;
+
+    @include media-query-mobile {
+        border: none;
+    }
+
 }
 
 .table {
@@ -22,12 +29,12 @@
     &__names {
         background-color: $color-grey;
         border-bottom: 1px solid $color-main;
-        padding: 0.5rem;
+        padding: $padding-xs;
         font-weight: $font-weight-strong;
     }
 
     &__data {
-        padding: 0.5rem 2rem 0.5rem 0.5rem;
+        padding: $padding-xs $padding-l $padding-xs $padding-xs;
         font-weight: $font-weight;
 
     }

@@ -1,5 +1,5 @@
 @import "../../saas/variables.scss";
-
+@import "../../saas/media.scss";
 
 
 .busy-hours-form {
@@ -8,15 +8,29 @@
     margin: $margin-m 0;
     align-items: center;
 
-    &__input-data,  &__input {
+    @include media-query-mobile {
+        flex-direction: column;
+        align-items: center;
+        margin: $margin-s;
+    }
+
+    &__input-data,
+    &__input {
         display: flex;
         flex-direction: column;
     }
 
-    &__input-data{
+    &__input-data {
         gap: 1rem;
         width: 15rem;
         margin-right: $margin-xl;
+
+        @include media-query-mobile {
+            margin: 0 0 $margin-s;
+            display: flex;
+            align-items: center;
+        }
+
     }
 
     &__input {
@@ -25,5 +39,16 @@
 
     &__button {
         max-width: 10rem;
+
+        @include media-query-mobile {
+            width: 100%;
+        }
+
+    }
+
+    &__table{
+        @include media-query-mobile {
+            width: 100%;
+        }
     }
 }
