@@ -1,0 +1,18 @@
+@import "../../saas/variables.scss";
+
+.button {
+    border: 2px solid $color-main;
+    border-radius: $radius-xs;
+    color: $color-main;
+    font-family: $font-family;
+    font-size: $font-size-m;
+    font-weight: $font-weight;
+    width: 100%;
+    background-color: $color-background-button;
+    max-height: 3rem;
+    height: 3rem;
+
+    &:hover {
+        background-color: $color-background-button-hover;
+    }
+}

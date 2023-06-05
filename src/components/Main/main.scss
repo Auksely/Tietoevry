@@ -1,0 +1,8 @@
+@import "../../saas/variables.scss";
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: $margin-l;
+}

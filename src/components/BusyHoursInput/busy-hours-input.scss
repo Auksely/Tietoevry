@@ -1,0 +1,29 @@
+@import "../../saas/variables.scss";
+
+
+
+.busy-hours-form {
+    display: flex;
+    flex-direction: row;
+    margin: $margin-l 0;
+    align-items: center;
+
+    &__input-data,  &__input {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input-data{
+        gap: 1rem;
+        width: 15rem;
+        margin-right: $margin-xl;
+    }
+
+    &__input {
+        width: 100%;
+    }
+
+    &__button {
+        max-width: 10rem;
+    }
+}

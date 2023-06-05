@@ -1,0 +1,34 @@
+@import "../../saas/variables.scss";
+
+.table-container {
+    border: 1px solid $color-main;
+    border-radius: $radius-xs;
+    overflow: hidden;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+    &__names,
+    &__data {
+        text-align: left;
+        color: $color-main;
+        font-family: $font-family;
+    }
+
+    &__names {
+        background-color: $color-grey;
+        border-bottom: 1px solid $color-main;
+        padding: 0.5rem;
+        font-size: $font-size-m;
+        font-weight: $font-weight-strong;
+    }
+
+    &__data {
+        padding: 0.5rem 2rem 0.5rem 0.5rem;
+        font-size: $font-size-s;
+        font-weight: $font-weight;
+
+    }
+}

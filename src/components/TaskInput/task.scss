@@ -1,0 +1,22 @@
+@import "../../saas/variables.scss";
+
+
+
+.task-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: $margin-l;
+
+    &__input {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    &__mark {
+        border: none;
+        border-top: 5px dotted #d8d7d7;
+        width: 30%;
+    }
+}

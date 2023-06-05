@@ -1,0 +1,32 @@
+@import "../../saas/variables.scss";
+
+
+.input {
+  border: 2px solid $color-main;
+  border-radius: $radius-xs;
+  color: $color-main;
+  font-family: $font-family;
+  font-size: $font-size-m;
+  font-weight: $font-weight;
+  max-width: 10rem;
+  padding: $padding-inputs;
+  width: 100%;
+
+  &:hover {
+    border-color: $color-input-hover;
+    background-color: $color-background;
+  }
+
+  &__label {
+    color: $color-input-labels;
+    font-family: $font-family;
+    font-size: $font-size-s;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    margin-bottom: $margin-xs;
+  }
+
+  &--colored {
+    background-color: $color-grey;
+  }
+}

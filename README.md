@@ -1,5 +1,19 @@
 # Getting Started with Create React App
 
+Hi, Tadas.
+I prepared a schedule counter for you.
+
+On a top of this app you see 3 fields, where you can type your projects' name, deadline and hours needed to do that project (you can change it any time you want and calculate your schedule again if needed )
+
+Then there is a place to input your busy hours. You will see all your busy days in a table on a right side, you can change this data any time you need, if your plans change.
+
+After you enter all the fields, there is a button, which does calculations. After pressing a button feel free, to use "Make a schedule button" and use it to manage your time.
+
+Good luck with a project!
+
+
+# Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
