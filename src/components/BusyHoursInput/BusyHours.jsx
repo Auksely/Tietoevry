@@ -89,7 +89,7 @@ const BusyHours = () => {
           </div>
         </div>
         <div className="busy-hours-form__table">
-          <Table firstColl="Busy date" secColl="Amount of busy hours" busy={busy} />
+          <Table firstColl="Busy date" secColl="Hours of being busy" busy={busy} />
         </div>
 
       </form>
